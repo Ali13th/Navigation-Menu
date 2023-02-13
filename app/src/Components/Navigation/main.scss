@@ -1,0 +1,35 @@
+header{
+background-color: #222;
+padding: 2vw;
+color: #fff;display: flex;
+}
+.Lnks{
+    display: flex;
+    list-style-type: none;
+margin-left: 52vw;
+font-size: 2vw;
+
+background-color: #222;
+color: #fff;
+
+
+
+   .Link{
+        text-decoration: none;
+        margin-right: .5vw;
+        color: #222;
+        padding: 1.5vw;
+        background-color: #222;
+color: #fff;
+transition: all .8s;
+
+        &:hover{
+            background-color: rgb(63, 189, 136);
+           color: antiquewhite;
+        }
+    }
+}
+
+.header-logo{
+list-style-type: none;
+}
